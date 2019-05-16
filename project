@@ -1,0 +1,220 @@
+# Zodiac Reference: astrostyle.com
+
+print("Welcome to ZodiacX!!!Due to ZodiacX you will find out your zodiac sign and some characteristic information coressponding to it")
+print("-------------------------------------------------")
+
+
+
+# ZODIAC EXPLANATIONS
+a = "The pioneer and trailblazer of the horoscope wheel, Aries energy helps us initiate, fight for our beliefs and fearlessly put ourselves out there."
+b = "The persistent provider of the horoscope family, Taurus energy helps us seek security, enjoy earthly pleasures and get the job done."
+c = "The most versatile and vibrant horoscope sign, Gemini energy helps us communicate, collaborate and fly our freak flags at full mast."
+d = "The natural nurturer of the horoscope wheel, Cancer energy helps us connect with our feelings, plant deep roots and feather our family nests."
+e = "The drama and regal ruler of the horoscope clan, Leo energy helps us shine, express ourselves boldly and wear our hearts on our sleeves."
+f = "The masterful helper of the horoscope wheel, Virgo energy teaches us to serve, do impeccable work and prioritize wellbeing of ourselves, our loved ones and the planet."
+g = "The balance of the horoscope family, Libra energy inspires us to seek peace, harmony and cooperation and to do it with style and grace."
+h = "The most intense and focused of the horoscope signs, Scorpio energy helps us dive deep, merge our superpowers and form bonds that are built to last."
+i = "The wordly adventurer of the horoscope wheel, Sagittarius energy inspires us to dream big, chase the impossible and take fearless risks."
+j = "The measured master planner of the horoscope family, Capricon energy teaches us the power of structure and long-term goals."
+k = "The mad scientist and humanitarian of the horoscope wheel, futuristic Aquarius helps us innovate and unite for social justice."
+l = "The dreamer and healer of the horoscope family, Pisces energy awakens compassion, imagination and artistry, uniting us as one."
+
+
+
+
+
+
+
+
+
+def again():
+    print("")
+    print("Please check you month")
+    print("Month must be the following")
+    print("01 - January")
+    print("02 - February")
+    print("03 - March")
+    print("04 - April")
+    print("05 - May")
+    print("06 - June")
+    print("07 - July")
+    print("08 - August")
+    print("09 - September")
+    print("10 - October")
+    print("11 - November")
+    print("12 - December")
+    print("")
+def zodiac():
+    month = input("Please, type the MONTH of your birthday(eg. 01; 12):")
+    print("-------------------------------------------------")
+    day = int(input("Please, type the DAY of your birthday(eg. 01; 31):"))
+    print("-------------------------------------------------")
+    bday = ( month + "/" + str(day))
+    if (int(month) > 12):
+        again()
+        zodiac()
+    elif month == "01":
+        if (day > 31):
+            print("")
+            print("Invalid Date")
+            print("Please try again!")
+            print("")
+            zodiac()
+        elif (day <= 20):
+            print("Your Birthday is(mm/dd):",bday)
+            print("Then your zodiac sign is Capricorn!" +j)
+        else:
+            print("Your Birthday is(mm/dd):",bday)
+            print("Then your zodiac sign is Aquarius" +k)
+    elif month == "02":
+        if (day >28):
+            print("")
+            print("Invalid Date")
+            print("Please try again")
+            print("")
+            zodiac()
+        elif (day <= 18):
+            print("Your Birthday is(mm/dd):",bday)
+            print("Then your zodiac sign is Aquarius" +k)
+        else:
+            print("Your Birthday is(mm/dd):",bday)
+            print("Then your zodiac sign is Pisces" +l)
+    elif month == "03":
+        if (day > 31):
+            print("")
+            print("Invalid Date")
+            print("Please try again!")
+            print("")
+            zodiac()
+        elif (day <= 20):
+            print("Your Birthday is(mm/dd):",bday)
+            print("Then your zodiac sign is Pisces" +l)
+        else:
+            print("Your Birthday is(mm/dd):",bday)
+            print("Then your zodiac sign is Aries" +a)
+    elif month == "04":
+        if (day > 30):
+            print("")
+            print("Invalid Date")
+            print("Please try again!")
+            print("")
+            zodiac()
+        elif (day <= 20):
+            print("Your Birthday is(mm/dd):",bday)
+            print("Then your zodiac sign is Aries" +a)
+        else:
+            print("Your Birthday is(mm/dd):",bday)
+            print("Then your zodiac sign is Taurus" +b)
+    elif month == "05":
+        if (day > 31):
+            print("")
+            print("Invalid Date")
+            print("Please try again!")
+            print("")
+            zodiac()
+        elif (day <= 20):
+            print("Your Birthday is(mm/dd):",bday)
+            print("Then your zodiac sign is Taurus" +b)
+        else:
+            print("Your Birthday is(mm/dd):",bday)
+            print("Then your zodiac sign is Gemini" +c)
+    elif month == "06":
+        if (day > 30):
+            print("")
+            print("Invalid Date")
+            print("Please try again!")
+            print("")
+            zodiac()
+        elif (day <= 21):
+            print("Your Birthday is(mm/dd):",bday)
+            print("Then your zodiac sign is Gemini" +c)
+        else:
+            print("Your Birthday is(mm/dd):",bday)
+            print("Then your zodiac sign is Cancer" +d)
+    elif month == "07":
+        if (day > 31):
+            print("")
+            print("Invalid Date")
+            print("Please try again!")
+            print("")
+            zodiac()
+        elif (day <= 22):
+            print("Your Birthday is(mm/dd):",bday)
+            print("Then your zodiac sign is Cancer" +d)
+        else:
+            print("Your Birthday is(mm/dd):",bday)
+            print("Then your zodiac sign is Leo" +e)
+    elif month == "08":
+        if (day > 31):
+            print("")
+            print("Invalid Date")
+            print("Please try again!")
+            print("")
+            zodiac()
+        elif (day <=23):
+            print("Your Birthday is(mm/dd):",bday)
+            print("Then your zodiac sign is Leo" +e)
+        else:
+            print("Your Birthday is(mm/dd):",bday)
+            print("Then your zodiac sign is Virgo" +f)
+    elif month == "09":
+        if (day > 30):
+            print("")
+            print("Invalid Date")
+            print("Please try again!")
+            print("")
+            zodiac()
+        elif (day <= 23):
+            print("Your Birthday is(mm/dd):",bday)
+            print("Then your zodiac sign is Virgo" +f)
+        else:
+            print("Your Birthday is(mm/dd):",bday)
+            print("Then your zodiac sign is Libra" +g)
+    elif month == "10":
+        if (day > 31):
+            print("")
+            print("Invalid Date")
+            print("Please try again!")
+            print("")
+            zodiac()
+        elif (day <= 23):
+            print("Your Birthday is(mm/dd):",bday)
+            print("Then your zodiac sign is Libra" +g)
+        else:
+            print("Your Birthday is(mm/dd):",bday)
+            print("Then your zodiac sign is Scorpio" +h)
+    elif month == "11":
+        if (day > 30):
+            print("")
+            print("Invalid Date")
+            print("Please try again!")
+            print("")
+            zodiac()
+        elif (day <= 23):
+            print("Your Birthday is(mm/dd):",bday)
+            print("Then your zodiac sign is Scorpio" +h)
+        else:
+            print("Your Birthday is(mm/dd):",bday)
+            print("Then your zodiac sign is Sagittarius" +i)
+    elif month == "12":
+        if (day > 31):
+            print("")
+            print("Invalid Date")
+            print("Please try again!")
+            print("")
+            zodiac()
+        elif (day <= 21):
+            print("Your Birthday is(mm/dd):",bday)
+            print("Then your zodiac sign is Sagittarius" +i)
+        else:
+            print("Your Birthday is(mm/dd):",bday)
+            print("Then your zodiac sign is Capricorn" +j)
+    else:
+        print("")
+        again()
+        zodiac()
+zodiac()
+print("")
+again = input("Type 'zodiac' if you want to try again: ")
+if (again == "zodiac"):
+    zodiac()
