@@ -22,4 +22,4 @@ User Stories:
 As a user I can see my zodioac sign anytime I add information about the day and month of my birth.
 As a user I can read the decription of my zodiac sign.
 As a user I need to check the dates whenever it shows "invalid date" ,as a result.
-As a usert i can repeat my steps just by typing "zodiac"
+As a usert I can repeat my steps just by typing "zodiac".
