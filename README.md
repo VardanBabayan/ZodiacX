@@ -11,7 +11,7 @@ One of a kind Horoscope App! ZodiacX will help people to know their zodiac sign 
 
 
 Target Users:
-ZodiacX will be used by the people who are interested in astronomy or by the people who are just looking for fun.
+ZodiacX will be used by the people who are interested in astronomy/astrology or by the people who are just looking for fun.
 
 
 User Problems Solved:
